@@ -1,5 +1,5 @@
 - [ ] Storybook
-- [ ] vanilla js or scss?
+- [x] vanilla js?
 - [ ] Component
 - [ ] husky
 - [ ] plop
