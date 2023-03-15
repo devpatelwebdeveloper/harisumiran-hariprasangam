@@ -1,1 +1,6 @@
-export const isBoolean = (value:any): value is Boolean => typeof value === 'boolean'
+import Paragraph from "./components/atoms/Paragraph/Paragraph"
+
+
+export {
+  Paragraph
+}
