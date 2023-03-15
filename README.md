@@ -4,6 +4,7 @@
 - [ ] husky
 - [ ] plop
 - [ ] testing
+- [ ] CodeCoverage
 - [ ] shortcut commands
 - [ ] nextjs setup
 - [ ] cms setup
