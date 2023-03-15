@@ -1,11 +1,13 @@
 import React from 'react'
+import { textColor } from './Paragraph.css'
 
 type ParagraphProps = {
-  children: string
+  children: string,
+  variant:'primary'|'secondary'
 }
 
-export default function Paragraph({children}:ParagraphProps) {
+export default function Paragraph({children,variant}:ParagraphProps) {
   return (
-    <p>{children}</p>
+    <p className={textColor[variant]}>{children}Check</p>
   )
 }

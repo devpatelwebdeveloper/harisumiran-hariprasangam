@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "files": [
-    "dist"
+    "dist/*"
   ],
   "main": "./dist/shared-ui.umd.cjs",
   "module": "./dist/shared-ui.js",
@@ -12,7 +12,7 @@
   "exports": {
     ".": {
       "import": "./dist/shared-ui.js",
-      "require": "./dist/shared-ui.umd.cjs"
+      "require": ["./dist/style.css","./dist/shared-ui.umd.cjs"]
     }
   },
   "scripts": {
@@ -21,6 +21,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vanilla-extract/css": "^1.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -28,6 +29,7 @@
     "@types/node": "^18.15.3",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "@vanilla-extract/vite-plugin": "^3.8.0",
     "@vitejs/plugin-react": "^3.1.0",
     "pathe": "^1.1.0",
     "typescript": "^4.9.3",
