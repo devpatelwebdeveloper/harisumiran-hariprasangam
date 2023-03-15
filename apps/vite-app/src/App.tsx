@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {isBoolean} from "@harisumiran-hariprasangam/shared-ui"
+import {Paragraph} from "@harisumiran-hariprasangam/shared-ui"
 import reactLogo from './assets/react.svg'
 import './App.css'
 
@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      {!isBoolean(count>5?'true':'false')&& <h2>Boolean test</h2>}
+      <Paragraph>Trial Test</Paragraph>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
