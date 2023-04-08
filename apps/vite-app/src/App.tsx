@@ -4,7 +4,7 @@ import {Paragraph} from "@harisumiran-hariprasangam/shared-ui"
 function App() {
   return (
     <>
-      <Paragraph variant="secondary">Trial Test Check</Paragraph>
+      <Paragraph theme="blue">Trial Test Check</Paragraph>
     </>
     
   )

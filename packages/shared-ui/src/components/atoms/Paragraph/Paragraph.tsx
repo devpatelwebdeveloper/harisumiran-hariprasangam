@@ -1,13 +1,16 @@
 import React from 'react'
-import { textColor } from './Paragraph.css'
+import { classNames } from '../../../utils';
+import styles from "./Paragraph.module.scss";
 
-type ParagraphProps = {
-  children: string,
-  variant:'primary'|'secondary'
+export interface ParagraphProps {
+ children: string,
+ theme: 'red' | 'blue'
 }
 
-export default function Paragraph({children,variant}:ParagraphProps) {
-  return (
-    <p className={textColor[variant]}>{children}Check</p>
-  )
+function Paragraph({ children, theme = 'blue' }: ParagraphProps) {
+ return (
+  <div className={classNames(styles[theme])}>{children}</div>
+ )
 }
+
+export default Paragraph

@@ -1,0 +1,1 @@
+declare module '@harisumiran-hariprasangam/shared-ui';
