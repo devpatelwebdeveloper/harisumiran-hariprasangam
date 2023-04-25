@@ -2,7 +2,7 @@
 - [x] SCSS
 - [x] Component
 - [ ] husky
-- [ ] plop
+- [x] plop
 - [ ] testing
 - [ ] CodeCoverage
 - [ ] shortcut commands
