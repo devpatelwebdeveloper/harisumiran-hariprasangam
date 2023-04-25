@@ -25,6 +25,7 @@
     "jsx": "react-jsx"
   },
   "include": [
+    "node-external.ts",
     "**/*.ts" ],
   "references": [
     {
