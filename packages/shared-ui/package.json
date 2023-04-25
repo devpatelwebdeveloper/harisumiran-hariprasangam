@@ -21,7 +21,8 @@
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "generate": "plop"
+    "generate": "plop",
+    "type": "module"
   },
   "dependencies": {
     "react": "^18.2.0",
