@@ -1,8 +1,8 @@
 - [x] Storybook
 - [x] SCSS
-- [ ] Component
+- [x] Component
 - [ ] husky
-- [ ] plop
+- [x] plop
 - [ ] testing
 - [ ] CodeCoverage
 - [ ] shortcut commands

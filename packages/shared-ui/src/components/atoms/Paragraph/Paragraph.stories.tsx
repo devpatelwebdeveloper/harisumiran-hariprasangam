@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import Paragraph, { ParagraphProps } from "./Paragraph"
 
 export default {
- title: 'Paragraph',
+ title: 'atoms/Paragraph',
  component: Paragraph,
  argTypes: {
   children: {

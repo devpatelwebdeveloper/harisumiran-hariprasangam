@@ -1,6 +1,7 @@
-import Paragraph from "./Paragraph"
-
+import Paragraph from "./Paragraph";
+// COMPONENT IMPORTS
 
 export {
-  Paragraph
+  Paragraph,
+// COMPONENT EXPORTS
 }
