@@ -11,7 +11,7 @@ export default {
    defaultValue: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis placerat libero, sit amet rutrum massa semper eu. Aliquam scelerisque egestas nisl.`
   },
   theme: {
-   control: { type: "select", options: ["blue", "red"] }
+   control: { type: "select", options: ["default","blue", "red"] }
   }
  }
 } as ComponentMeta<typeof Paragraph>;

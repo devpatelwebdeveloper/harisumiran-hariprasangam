@@ -4,12 +4,12 @@ import styles from "./Paragraph.module.scss";
 
 export interface ParagraphProps {
  children: string,
- theme: 'red' | 'blue'
+ theme: 'red' | 'blue'|'default'
 }
 
-function Paragraph({ children, theme = 'blue' }: ParagraphProps) {
+function Paragraph({ children, theme = 'default' }: ParagraphProps) {
  return (
-  <div className={classNames(styles[theme])}>{children}</div>
+  <p className={classNames(styles[theme])}>{children}</p>
  )
 }
 
