@@ -1,6 +1,6 @@
 - [x] Storybook
 - [x] SCSS
-- [ ] Component
+- [x] Component
 - [ ] husky
 - [ ] plop
 - [ ] testing
